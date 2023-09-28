@@ -21,3 +21,6 @@ jobs:
 
     - name: make
       run: make -f makefile
+
+    - name: check
+      run: ls -l
