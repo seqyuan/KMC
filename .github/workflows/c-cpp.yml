@@ -16,7 +16,8 @@ jobs:
 
     - name: depend
       run: |
-        sudo apt-get install -y libbzip2 zlib 
+        sudo apt-get update -y
+        sudo apt-get install -y libbz2-1.0 zlib1g 
 
     - name: make
       run: make -f makefile
